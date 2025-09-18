@@ -8,7 +8,7 @@ if(!$conn){
 $email = $_POST['email'];
 $password = $_POST['password'];
 
-$sql = "SELECT * FROM staff WHERE email = '$email' AND password = '$password' ";
+$sql = " SELECT * FROM staff WHERE email = '$email' AND password = '$password' ";
 
 $result = mysqli_query($conn,$sql);
 
